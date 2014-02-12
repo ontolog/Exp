@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95A0E24618AB72D000677A0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A0E24518AB72D000677A0F /* Foundation.framework */; };
+		95A0E24818AB72D000677A0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A0E24718AB72D000677A0F /* CoreGraphics.framework */; };
+		95A0E24A18AB72D000677A0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A0E24918AB72D000677A0F /* UIKit.framework */; };
+		95A0E25018AB72D000677A0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95A0E24E18AB72D000677A0F /* InfoPlist.strings */; };
+		95A0E25218AB72D000677A0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A0E25118AB72D000677A0F /* main.m */; };
+		95A0E25618AB72D000677A0F /* khAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A0E25518AB72D000677A0F /* khAppDelegate.m */; };
+		95A0E25818AB72D000677A0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A0E25718AB72D000677A0F /* Images.xcassets */; };
+		95A0E25F18AB72D000677A0F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A0E25E18AB72D000677A0F /* XCTest.framework */; };
+		95A0E26018AB72D000677A0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A0E24518AB72D000677A0F /* Foundation.framework */; };
+		95A0E26118AB72D000677A0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A0E24918AB72D000677A0F /* UIKit.framework */; };
+		95A0E26918AB72D000677A0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95A0E26718AB72D000677A0F /* InfoPlist.strings */; };
+		95A0E26B18AB72D000677A0F /* DoorsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A0E26A18AB72D000677A0F /* DoorsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95A0E26218AB72D000677A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95A0E23A18AB72D000677A0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95A0E24118AB72D000677A0F;
+			remoteInfo = Doors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95A0E24218AB72D000677A0F /* Doors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A0E24518AB72D000677A0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95A0E24718AB72D000677A0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95A0E24918AB72D000677A0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95A0E24D18AB72D000677A0F /* Doors-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Doors-Info.plist"; sourceTree = "<group>"; };
+		95A0E24F18AB72D000677A0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95A0E25118AB72D000677A0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95A0E25318AB72D000677A0F /* Doors-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Doors-Prefix.pch"; sourceTree = "<group>"; };
+		95A0E25418AB72D000677A0F /* khAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = khAppDelegate.h; sourceTree = "<group>"; };
+		95A0E25518AB72D000677A0F /* khAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = khAppDelegate.m; sourceTree = "<group>"; };
+		95A0E25718AB72D000677A0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95A0E25D18AB72D000677A0F /* DoorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A0E25E18AB72D000677A0F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		95A0E26618AB72D000677A0F /* DoorsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoorsTests-Info.plist"; sourceTree = "<group>"; };
+		95A0E26818AB72D000677A0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95A0E26A18AB72D000677A0F /* DoorsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoorsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95A0E23F18AB72D000677A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A0E24818AB72D000677A0F /* CoreGraphics.framework in Frameworks */,
+				95A0E24A18AB72D000677A0F /* UIKit.framework in Frameworks */,
+				95A0E24618AB72D000677A0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A0E25A18AB72D000677A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A0E25F18AB72D000677A0F /* XCTest.framework in Frameworks */,
+				95A0E26118AB72D000677A0F /* UIKit.framework in Frameworks */,
+				95A0E26018AB72D000677A0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95A0E23918AB72D000677A0F = {
+			isa = PBXGroup;
+			children = (
+				95A0E24B18AB72D000677A0F /* Doors */,
+				95A0E26418AB72D000677A0F /* DoorsTests */,
+				95A0E24418AB72D000677A0F /* Frameworks */,
+				95A0E24318AB72D000677A0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95A0E24318AB72D000677A0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A0E24218AB72D000677A0F /* Doors.app */,
+				95A0E25D18AB72D000677A0F /* DoorsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95A0E24418AB72D000677A0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95A0E24518AB72D000677A0F /* Foundation.framework */,
+				95A0E24718AB72D000677A0F /* CoreGraphics.framework */,
+				95A0E24918AB72D000677A0F /* UIKit.framework */,
+				95A0E25E18AB72D000677A0F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95A0E24B18AB72D000677A0F /* Doors */ = {
+			isa = PBXGroup;
+			children = (
+				95A0E25418AB72D000677A0F /* khAppDelegate.h */,
+				95A0E25518AB72D000677A0F /* khAppDelegate.m */,
+				95A0E25718AB72D000677A0F /* Images.xcassets */,
+				95A0E24C18AB72D000677A0F /* Supporting Files */,
+			);
+			path = Doors;
+			sourceTree = "<group>";
+		};
+		95A0E24C18AB72D000677A0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A0E24D18AB72D000677A0F /* Doors-Info.plist */,
+				95A0E24E18AB72D000677A0F /* InfoPlist.strings */,
+				95A0E25118AB72D000677A0F /* main.m */,
+				95A0E25318AB72D000677A0F /* Doors-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95A0E26418AB72D000677A0F /* DoorsTests */ = {
+			isa = PBXGroup;
+			children = (
+				95A0E26A18AB72D000677A0F /* DoorsTests.m */,
+				95A0E26518AB72D000677A0F /* Supporting Files */,
+			);
+			path = DoorsTests;
+			sourceTree = "<group>";
+		};
+		95A0E26518AB72D000677A0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A0E26618AB72D000677A0F /* DoorsTests-Info.plist */,
+				95A0E26718AB72D000677A0F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95A0E24118AB72D000677A0F /* Doors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A0E26E18AB72D000677A0F /* Build configuration list for PBXNativeTarget "Doors" */;
+			buildPhases = (
+				95A0E23E18AB72D000677A0F /* Sources */,
+				95A0E23F18AB72D000677A0F /* Frameworks */,
+				95A0E24018AB72D000677A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Doors;
+			productName = Doors;
+			productReference = 95A0E24218AB72D000677A0F /* Doors.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95A0E25C18AB72D000677A0F /* DoorsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A0E27118AB72D000677A0F /* Build configuration list for PBXNativeTarget "DoorsTests" */;
+			buildPhases = (
+				95A0E25918AB72D000677A0F /* Sources */,
+				95A0E25A18AB72D000677A0F /* Frameworks */,
+				95A0E25B18AB72D000677A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95A0E26318AB72D000677A0F /* PBXTargetDependency */,
+			);
+			name = DoorsTests;
+			productName = DoorsTests;
+			productReference = 95A0E25D18AB72D000677A0F /* DoorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95A0E23A18AB72D000677A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = kh;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Ievgenii Kharkov";
+				TargetAttributes = {
+					95A0E25C18AB72D000677A0F = {
+						TestTargetID = 95A0E24118AB72D000677A0F;
+					};
+				};
+			};
+			buildConfigurationList = 95A0E23D18AB72D000677A0F /* Build configuration list for PBXProject "Doors" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95A0E23918AB72D000677A0F;
+			productRefGroup = 95A0E24318AB72D000677A0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A0E24118AB72D000677A0F /* Doors */,
+				95A0E25C18AB72D000677A0F /* DoorsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95A0E24018AB72D000677A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A0E25018AB72D000677A0F /* InfoPlist.strings in Resources */,
+				95A0E25818AB72D000677A0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A0E25B18AB72D000677A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A0E26918AB72D000677A0F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95A0E23E18AB72D000677A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A0E25218AB72D000677A0F /* main.m in Sources */,
+				95A0E25618AB72D000677A0F /* khAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A0E25918AB72D000677A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A0E26B18AB72D000677A0F /* DoorsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95A0E26318AB72D000677A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95A0E24118AB72D000677A0F /* Doors */;
+			targetProxy = 95A0E26218AB72D000677A0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95A0E24E18AB72D000677A0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A0E24F18AB72D000677A0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95A0E26718AB72D000677A0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A0E26818AB72D000677A0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95A0E26C18AB72D000677A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95A0E26D18AB72D000677A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95A0E26F18AB72D000677A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doors/Doors-Prefix.pch";
+				INFOPLIST_FILE = "Doors/Doors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95A0E27018AB72D000677A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doors/Doors-Prefix.pch";
+				INFOPLIST_FILE = "Doors/Doors-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		95A0E27218AB72D000677A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Doors.app/Doors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doors/Doors-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DoorsTests/DoorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		95A0E27318AB72D000677A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Doors.app/Doors";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Doors/Doors-Prefix.pch";
+				INFOPLIST_FILE = "DoorsTests/DoorsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95A0E23D18AB72D000677A0F /* Build configuration list for PBXProject "Doors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A0E26C18AB72D000677A0F /* Debug */,
+				95A0E26D18AB72D000677A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A0E26E18AB72D000677A0F /* Build configuration list for PBXNativeTarget "Doors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A0E26F18AB72D000677A0F /* Debug */,
+				95A0E27018AB72D000677A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95A0E27118AB72D000677A0F /* Build configuration list for PBXNativeTarget "DoorsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A0E27218AB72D000677A0F /* Debug */,
+				95A0E27318AB72D000677A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95A0E23A18AB72D000677A0F /* Project object */;
+}
